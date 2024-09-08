@@ -2,12 +2,31 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-ul,
-ol {
   list-style: none;
 }
-.container {
-  max-width: 1440px;
+.tabs {
+  width: 600px;
+  height: 300px;
   margin: 0 auto;
+  margin-top: 200px;
+}
+.tabs__buttons {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.tabs__button {
+  padding: 15px;
+  cursor: pointer;
+}
+.tabs__content {
+  display: none;
+}
+.tabs__content.active {
+  display: block;
+}
+span {
+  font-size: 20px;
+  color: rgb(80, 6, 80);
+  text-transform: uppercase;
 }

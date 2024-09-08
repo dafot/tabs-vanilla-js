@@ -8,17 +8,26 @@
   </head>
   <body>
     <section class="tabs">
-      <div class="container">
-        <div class="tabs__inner">
-          <div class="tabs__nav"></div>
-          <div class="tabs__content-body">
-            <ul class="tabs__content-list tabs-list">
-              <li class="tabs-list__item">1</li>
-              <li class="tabs-list__item">2</li>
-              <li class="tabs-list__item">3</li>
-              <li class="tabs-list__item">4</li>
-            </ul>
-          </div>
+      <ul class="tabs__buttons">
+        <li>
+          <button id="0" class="tabs__button">button 1</button>
+        </li>
+        <li>
+          <button id="1" class="tabs__button">button 2</button>
+        </li>
+        <li>
+          <button id="2" class="tabs__button">button 3</button>
+        </li>
+      </ul>
+      <div class="tabs__body">
+        <div class="tabs__content active">
+          <span>content 1</span> shine content
+        </div>
+        <div class="tabs__content">
+          <span>content 2</span> interesting content
+        </div>
+        <div class="tabs__content">
+          <span>content 3</span> another content
         </div>
       </div>
     </section>
